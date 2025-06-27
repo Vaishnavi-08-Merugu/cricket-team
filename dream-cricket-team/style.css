@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #1e90ff;
+  color: white;
+  padding: 20px;
+}
+
+.players-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px #aaa;
+  width: 180px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  margin: 15% auto;
+  width: 300px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.close {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}

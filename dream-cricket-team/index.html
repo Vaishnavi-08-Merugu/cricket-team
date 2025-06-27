@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dream XI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Team Logo" class="logo">
+    <h1>Dream XI</h1>
+    <p class="tagline">"Chasing Dreams, Hitting Sixes!"</p>
+  </header>
+
+  <main class="players-grid" id="playersGrid">
+    <!-- JS will inject player cards here -->
+  </main>
+
+  <div id="playerModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalName"></h2>
+      <p><strong>Jersey #</strong>: <span id="modalJersey"></span></p>
+      <p><strong>Matches Played</strong>: <span id="modalMatches"></span></p>
+      <p><strong>Strike Rate</strong>: <span id="modalStrikeRate"></span></p>
+      <p><strong>Best Performance</strong>: <span id="modalPerformance"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
